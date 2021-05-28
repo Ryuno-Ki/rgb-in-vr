@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>RGB in VR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <a-entity camera look-controls wasd-controls position="8 8 8"></a-entity>
+    {%- for red in range(0, 16, 2) -%}
+      {%- set x = 2 * loop.index0 -%}
+      {%- set redHex = (16 * red).toString(16) -%}
+
+      {%- for green in range(0, 16, 2) -%}
+        {%- set y = 2 * loop.index0 -%}
+        {%- set greenHex = (16 * green).toString(16) -%}
+
+        {%- for blue in range(0, 16, 2) -%}
+          {%- set z = 2 * loop.index0 -%}
+          {%- set blueHex = (16 * blue).toString(16) -%}
+
+          {%- set color = ("0" + redHex).slice(-2) + ("0" + greenHex).slice(-2) + ("0" + blueHex).slice(-2) -%}
+<a-box position="{{ x }} {{ y }} {{ z }}" color="#{{ color }}"></a-box>
+        {%- endfor -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  </a-scene>
+</body>
+</html>

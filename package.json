@@ -1,0 +1,26 @@
+{
+  "name": "rgb-in-vr",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "deploy": "gh-pages -d ./_site",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuno-Ki/rgb-in-vr.git"
+  },
+  "keywords": [],
+  "author": "André Jaenisch",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/Ryuno-Ki/rgb-in-vr/issues"
+  },
+  "homepage": "https://github.com/Ryuno-Ki/rgb-in-vr#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "gh-pages": "^3.2.0"
+  }
+}
