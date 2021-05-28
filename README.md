@@ -2,6 +2,8 @@
 
 You can [watch a Demo Page](https://ryuno-ki.github.io/rgb-in-vr/).
 
+![preview](./preview.png)
+
 If you struggle with understanding RGB notation for colours, this repo might
 help you.
 
