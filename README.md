@@ -13,6 +13,12 @@ Connecting the lines between the other colours will give you gradient colours.
 
 Control via <kbd>W</kbd>, <kbd>A</kbd>, <kbd>S</kbd>, <kbd>D</kbd> or via look.
 
+## Vertical movement
+
+If there is interest, I might add
+[vertical movement](https://github.com/n5ro/aframe-extras/issues/149#issuecomment-389649914)
+in the future.
+
 ## License
 
 GPL v3 or newer.
