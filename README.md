@@ -1,5 +1,7 @@
 # rgb-in-vr
 
+Archived. This repository was moved to [my own domain](https://jaenis.ch/hobbies/coding/repos/ryuno-ki/rgb-in-vr).
+
 You can [watch a Demo Page](https://ryuno-ki.github.io/rgb-in-vr/).
 
 ![preview](./preview.png)
